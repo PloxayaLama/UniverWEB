@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/bootstrap.css" />
+    <title>About Timing Drills</title>
+</head>
+
+<body>
+    <a id="top"></a>
+    <div id="head" class="container-fluid header">
+        <input class="icons navIcon" id="navig" type="image" src="images/navigation.png" alt="navigation">
+        <div class="logoCont">
+            <img class="logo" src="images\logo.png" alt="logo">
+        </div>
+    </div>
+
+    <div class="cst"></div>
+    <div class="container-fluid">
+        <div id="navigation" class="col-2 navigation">
+            <nav>
+                <a href="#1">Timing Drills</a>
+                <a href="#2">Проверка синхронности</a>
+                <a href="#3">Метроном</a>
+                <a href="#4">Такты</a>
+                <a href="#5">Тембры</a>
+                <a href="#6">Движение мелодии</a>
+                <a href="#7">Ноты</a>
+                <a href="#comments">Комментарии</a>
+            </nav>
+        </div>
+
+        <div id="advertisement" class="col-2 advertisement">
+            <a href="https://www.epicgames.com/store/ru/"><img src="images\advertisement.jpg" width="100%" height="auto"
+                    alt="advertisement"></a>
+            <p>Реклама</p>
+        </div>
+
+
+        <div class="col-8 content">
+            <h3>Представляем вам <a id="1" href="https://www.timing-drills.pro">Timing Drills</a></h3>
+            <p>Timing Drills - это тренажёр для вашего музыкального слуха.</p>
+            <p>Наше приложение поможет вам стать лучше.
+                Занимайтесь с timing drills хотя бы по тридцать минут в день, и скоро вы заметите значительный прогресс
+                в уровне вашего музыкального слуха.</p>
+            <div class="row">
+                <div class="col-12">
+                    <div class="containerr">
+                        <div class="left">
+                            <div class="bg"></div>
+                        </div>
+                        <div class="right">
+                            <div class="bg"></div>
+                        </div>
+                        <div class="bottom">
+                            <div class="bg"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-8 content">
+            <p id="anchor">Тренажёр содержит в себе 6 функций</p>
+            <div class="row">
+                <h4><a id="2">Проверка синхронности</a></h4>
+            </div>
+            <div class="row">
+                <div class="col-6 conn">
+                    <p>Во время проверки синхронности играют звуки гитары и барабанов. Вам нужно определить вместе
+                        ли
+                        играют
+                        инструменты, или какой-то из них раньше.</p>
+                    <p><button id="b2" onclick="openVideo(v2, d2)" class="c-button">Видео</button></p>
+                </div>
+                <div id="d2" class="col-6 con"><iframe src="sourses\Sinhr.mp4" id="v2" class="video"
+                        frameborder="1"></iframe>
+                </div>
+            </div>
+            <div class="row">
+                <h4><a id="3">Метроном</a></h4>
+            </div>
+            <div class="row">
+                <div class="col-6 conn">
+                    <p>Здесь вам предстоит услышать ритм и определить ровный ли он.</p>
+                    <p><button id="b3" onclick="openVideo(v3, d3)" class="c-button">Видео</button></p>
+                </div>
+                <div id="d3" class="col-6 con">
+                    <iframe src="sourses\metro.mp4" id="v3" class="video" frameborder="1"></iframe>
+                </div>
+            </div>
+            <div class="row">
+                <h4><a id="4">Такты</a></h4>
+            </div>
+            <div class="row">
+                <div class="col-6 conn">
+                    <p>Тут вы услышите отрезок мелодии. Вам нужно посчитать количество тактов в этом отрезке.</p>
+                    <p><button id="b4" onclick="openVideo(v4, d4)" class="c-button">Видео</button></p>
+                </div>
+                <div id="d4" class="col-6 con">
+                    <iframe src="sourses\takt.mp4" id="v4" class="video" frameborder="1"></iframe>
+                </div>
+            </div>
+            <div class="row">
+                <h4><a id="5">Тембры</a></h4>
+            </div>
+            <div class="row">
+                <div class="col-6 conn">
+                    <p>Здесь нужно посчитать количество тембров в мелодии. Тембр - это каждый отдельный звук,
+                        например
+                        гитара или вокал.</p>
+                    <p><button id="b5" onclick="openVideo(v5, d5)" class="c-button">Видео</button></p>
+                </div>
+                <div id="d5" class="col-6 con">
+                    <iframe src="sourses\tembr.mp4" id="v5" class="video" frameborder="1"></iframe>
+                </div>
+            </div>
+            <div class="row">
+                <h4><a id="6">Движение мелодии</a></h4>
+            </div>
+            <div class="row">
+                <div class="col-6 conn">
+                    <p>В этом тренажёре нужно определить куда движется мелодия в проигранном отрезке.</p>
+                    <p><button id="b6" onclick="openVideo(v6, d6)" class="c-button">Видео</button></p>
+                </div>
+                <div id="d6" class="col-6 con">
+                    <iframe src="sourses\melody.mp4" id="v6" class="video" frameborder="1"></iframe>
+                </div>
+            </div>
+            <div class="row">
+                <h4><a id="7">Ноты</a></h4>
+            </div>
+            <div class="row">
+                <div class="col-6 conn">
+                    <p>И наконец проверка вашего знания нот.</p>
+                    <p><button id="b7" onclick="openVideo(v7, d7)" class="c-button">Видео</button></p>
+                </div>
+                <div id="d7" class="col-6 con">
+                    <iframe src="sourses\notes.mp4" id="v7" class="video" frameborder="1"></iframe>
+                </div>
+            </div>
+            <div class="container-fluid gallery">
+                <div class="row ">
+                    <div class="col-6">
+                        <img class="im" src="https://cdn.pixabay.com/photo/2016/03/09/09/32/guitar-1245856__340.jpg"
+                            alt="">
+                    </div>
+                    <div class="col-6">
+                        <img class="im" src="https://cdn.pixabay.com/photo/2014/06/21/20/09/violin-374096__340.jpg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-6">
+                        <img class="im" src="https://cdn.pixabay.com/photo/2015/09/19/01/05/country-946706__340.jpg"
+                            alt="">
+                    </div>
+                    <div class="col-6">
+                        <img class="im" src="https://cdn.pixabay.com/photo/2015/03/26/10/22/saxophones-691224__340.jpg"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+            <a id="lin" class="lin" href="#top">
+                <div class="toTop">
+                    <div class="arrow-toTop"></div>
+                </div>
+            </a>
+        </div>
+        <div class="col-8 content">
+            <div class="row">
+                <div class="col-11 comments">
+                    <form action="">
+                        <div class="row">
+                            <h3><a id="comments">Комментарии</a></h3>
+                            <div class="col-4">
+                                <p>Введите ваш ник: <input id="" min="5" type="text"></p>
+                                <p>Введите ваш e-mail: <input min="5" type="text"></p>
+                            </div>
+                            <div class="col-8">
+                                <p><textarea name="comment" id="comment" cols="40" rows="8"></textarea></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3" style="margin:0 auto;">
+                                <button id="buttonComment" class="buttonComment">Добавить комментарий</button>
+                            </div>
+                            <div class="col-3" style="margin:0 auto;">
+                                <button id="btnComments2" class="buttonComment">Показать/скрыть комментарии</button>
+                            </div>
+                        </div>
+                        <hr width="100%" size="4" color="#ff0000" />
+                        <div id="userComments" style="display:none;" class="container-fluid">
+                            <div class="row">
+                                <h5>Арсений Королёв</h5>
+                                <div class="col-10 userComments">
+                                    <p>Занимаюсь с тренажёром уже месяц. Заметен не слабый прогресс, так что всем
+                                        советую!</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <h5>Александр Петров</h5>
+                                <div class="col-10 userComments">
+                                    <p>Простой и эффективный тренажёр. Мне понравилось.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid footer">
+        <div class="row">
+            <div class="col-8 align-self-center ffooter">
+                <p class="textFooter">Улучшайте свой музыкальный слух вместе с нами!</p>
+            </div>
+            <div class="col-4 align-self-center ffooter">
+                <p class="textFooter">Наши контакты:</p>
+                <a href="https://www.instagram.com/andrei_ploxaya_lama/"><img class="icons" src="images/instagram.png"
+                        alt="instagram"></a>
+                <a href="https://t.me/Ploxaya_Lama"><img class="icons" src="images/telegram.png" alt="telegram"></a>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="scripts\1.js"></script>
+</body>
+
+</html>
