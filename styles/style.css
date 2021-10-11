@@ -60,6 +60,29 @@ p {
     width: 40px;
   }
 }
+@media (min-width: 2000px) {
+  .footer {
+    font-size: 2.5em;
+  }
+  .buttonComment {
+    font-size: 1em;
+  }
+  .comments {
+    font-size: 2.5em;
+  }
+  .icons {
+    width: 70px;
+  }
+  .navigation {
+    font-size: 2.5em;
+  }
+  .advertisement {
+    font-size: 2.5em;
+  }
+  .content {
+    font-size: 2.5em;
+  }
+}
 @media (max-width: 450px) {
   .navigation {
     font-size: 0.4em;
@@ -77,6 +100,12 @@ p {
   }
 }
 .content {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  display: table;
+  margin: 0 auto;
+}
+.comCont {
   background-color: rgb(255, 255, 255);
   text-align: center;
   display: table;
