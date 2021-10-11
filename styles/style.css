@@ -50,6 +50,25 @@ p {
   .footer {
     font-size: 0.7em;
   }
+  .buttonComment {
+    font-size: 0.4em;
+  }
+  .comments {
+    font-size: 0.7em;
+  }
+  .icons {
+    width: 40px;
+  }
+}
+@media (max-width: 450px) {
+  .navigation {
+    font-size: 0.4em;
+  }
+}
+@media (min-width: 451px) and (max-width: 600px) {
+  .navigation {
+    font-size: 0.7em;
+  }
 }
 .content {
   background-color: rgb(255, 255, 255);
@@ -242,7 +261,7 @@ h5,
 .navigation a {
   font-family: Snell Roundhand, cursive;
   display: block;
-  padding: 15px;
+  padding: 1%;
   text-decoration: none;
   color: rgb(14, 14, 14);
   font-weight: 800;
