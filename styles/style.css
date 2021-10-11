@@ -67,11 +67,8 @@ p {
   .buttonComment {
     font-size: 1em;
   }
-  .comments {
-    font-size: 2.5em;
-  }
   .icons {
-    width: 70px;
+    width: 100px;
   }
   .navigation {
     font-size: 2.5em;
