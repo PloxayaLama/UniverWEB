@@ -64,9 +64,15 @@ p {
   .navigation {
     font-size: 0.4em;
   }
+  .advertisement {
+    font-size: 0.4em;
+  }
 }
 @media (min-width: 451px) and (max-width: 600px) {
   .navigation {
+    font-size: 0.7em;
+  }
+  .advertisement {
     font-size: 0.7em;
   }
 }
